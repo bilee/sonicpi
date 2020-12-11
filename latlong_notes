@@ -1,0 +1,14 @@
+latlong riot
+Explore this map that shows some notable locations from the 
+1967 Detroit Rebellion.
+
+You are listening to “Latitude Longitude (Riots)”.
+
+It is an infinite generative audio composition that is based on the latitude 
+and longitude coordinates of these locations.
+
+Using open source tone generating software,
+the latitude and longitude coordinates make up a chord (for example, tone values 
+42.33 & 83.09 (Rosa Parks & Clairmont)). 
+
+A random value is generated to create tone variations and space between chords.
