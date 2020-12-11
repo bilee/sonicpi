@@ -1,0 +1,12 @@
+#LAT	LONG 	RIOT
+#
+#with_fx :reverb do
+#with_fx :flanger, feedback: 3 do
+use_random_seed 40
+use_synth :beep
+loop do
+  play rrand(0,42.37), pan: rrand_i(-1,1),attack: rrand(0,4), attack_level: rrand(0,2), decay: rrand(0,4), release: rrand(0,4), sustain: rrand(0,4), sustain_level: rrand(0,2)
+  play rrand(0,83.09), pan: rrand_i(-1,1),attack: rrand(0,4), attack_level: rrand(0,2), decay: rrand(0,4), release: rrand(0,4), sustain: rrand(0,4), sustain_level: rrand(0,2)
+  sleep rrand(0.5, 4)
+  
+end
